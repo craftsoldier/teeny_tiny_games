@@ -42,6 +42,7 @@ class Game:
         self.snake_object = Snake([(start_row, start_col), (start_row, start_col-1), (start_row, start_col-2), (start_row, start_col-3)], (0, 0))
         self.apple_place = Apple((0, 0))
         self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
+        self.score = 0
 
  
     def board_matrix(self):
@@ -84,11 +85,11 @@ class Game:
                 print("GAME OVER")
                 break 
             if new_head == self.apple_place.apple_spot:
-               self.snake_object.grow_tail(new_head)
-               self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
+                self.score += 1
+                self.snake_object.grow_tail(new_head)
+                self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
             else:
                 self.snake_object.take_step(new_head)
-
 
     def render(self):
         matrix = self.board_matrix()
@@ -115,6 +116,9 @@ class Game:
             print('-', end="")
         print('+', end="")
         print()
+        print()
+        print()
+        print(f"Score: {self.score}")
 
 
 game = Game(10, 10)
