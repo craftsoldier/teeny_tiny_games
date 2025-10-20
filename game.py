@@ -37,7 +37,9 @@ class Game:
     def __init__(self, height, width):
         self.height = height
         self.width = width
-        self.snake_object = Snake([((height // 2), (width // 2)), ((height // 2), (width // 2) - 1), ((height // 2), (width // 2) - 2),((height // 2), (width // 2) - 3)], (1,0))
+        start_row = random.randint(2, height - 3)
+        start_col = random.randint(4, width - 5)
+        self.snake_object = Snake([(start_row, start_col), (start_row, start_col-1), (start_row, start_col-2), (start_row, start_col-3)], (0, 0))
         self.apple_place = Apple((0, 0))
         self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
 
@@ -73,6 +75,8 @@ class Game:
             if move in keys and keys[move] != anti_direktion:
                 self.snake_object.set_direction(keys[move])
                 direktion = self.snake_object.direction
+            if direktion == (0, 0):
+                continue
             new_head = (head[0] + direktion[0], head[1] + direktion[1])
             new_head = (new_head[0] % self.height, new_head[1] % self.width)
             if new_head in self.snake_object.body:
