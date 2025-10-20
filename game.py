@@ -22,8 +22,15 @@ class Apple:
     def __init__(self, apple_spot):
         self.apple_spot = apple_spot
         
-    def random_spot(self, height, width):
-        self.apple_spot = (random.randint(0, height - 1), random.randint(0, width - 1))
+    def random_spot(self, height, width, body):
+        board_spot = []
+        for i in range(height):
+            for k in range(width): 
+                board_spot.append((i,k))
+
+        board_spot = [coord for coord in board_spot if coord not in body]
+
+        self.apple_spot = random.choice(board_spot)
         return self.apple_spot
 
 class Game:
@@ -31,7 +38,8 @@ class Game:
         self.height = height
         self.width = width
         self.snake_object = Snake([((height // 2), (width // 2)), ((height // 2), (width // 2) - 1), ((height // 2), (width // 2) - 2),((height // 2), (width // 2) - 3)], (1,0))
-        self.apple_place = Apple((random.randint(0, height - 1), random.randint(0, width - 1)))
+        self.apple_place = Apple((0, 0))
+        self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
 
  
     def board_matrix(self):
@@ -66,13 +74,14 @@ class Game:
                 self.snake_object.set_direction(keys[move])
                 direktion = self.snake_object.direction
             new_head = (head[0] + direktion[0], head[1] + direktion[1])
+            new_head = (new_head[0] % self.height, new_head[1] % self.width)
             if new_head in self.snake_object.body:
                 os.system('clear')
                 print("GAME OVER")
                 break 
             if new_head == self.apple_place.apple_spot:
                self.snake_object.grow_tail(new_head)
-               self.apple_place.random_spot(self.height, self.width)
+               self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
             else:
                 self.snake_object.take_step(new_head)
 
