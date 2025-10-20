@@ -1,4 +1,5 @@
 import os
+import random
 
 class Snake:
     def __init__(self, body, direction):
@@ -10,19 +11,29 @@ class Snake:
 
     def set_direction(self, direction):
         self.direction = direction
+
     def get_head(self):
         return self.body[0] 
 
-class Apple:
-    None
+    def grow_tail(self, position):
+        self.body = [position] + self.body
 
+class Apple:
+    def __init__(self, apple_spot):
+        self.apple_spot = apple_spot
+        
+    def random_spot(self, height, width):
+        self.apple_spot = (random.randint(0, height - 1), random.randint(0, width - 1))
+        return self.apple_spot
 
 class Game:
     def __init__(self, height, width):
         self.height = height
         self.width = width
         self.snake_object = Snake([((height // 2), (width // 2)), ((height // 2), (width // 2) - 1), ((height // 2), (width // 2) - 2),((height // 2), (width // 2) - 3)], (1,0))
+        self.apple_place = Apple((random.randint(0, height - 1), random.randint(0, width - 1)))
 
+ 
     def board_matrix(self):
         board_matrix = []
         for i in range(self.height):
@@ -35,8 +46,11 @@ class Game:
             board_matrix[place[0]][place[1]] = 'O'
 
         head = self.snake_object.get_head()
-
         board_matrix[head[0]][head[1]] = 'X'
+
+        apple_coords = self.apple_place.apple_spot 
+        board_matrix[apple_coords[0]][apple_coords[1]] = 'A'
+
         return board_matrix
 
     def play(self):
@@ -55,8 +69,13 @@ class Game:
             if new_head in self.snake_object.body:
                 os.system('clear')
                 print("GAME OVER")
-                break
-            self.snake_object.take_step(new_head)
+                break 
+            if new_head == self.apple_place.apple_spot:
+               self.snake_object.grow_tail(new_head)
+               self.apple_place.random_spot(self.height, self.width)
+            else:
+                self.snake_object.take_step(new_head)
+
 
     def render(self):
         matrix = self.board_matrix()
