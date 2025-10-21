@@ -6,121 +6,72 @@ class Snake:
         self.body = body
         self.direction = direction
 
-    def take_step(self, position):
-        self.body = [position] + self.body[:-1]
-
-    def set_direction(self, direction):
-        self.direction = direction
-
-    def get_head(self):
-        return self.body[0] 
-
-    def grow_tail(self, position):
-        self.body = [position] + self.body
+    def move(self, position, grow=False):
+        # Add new head position, optionally keep tail (grow) or remove it (move)
+        self.body = [position] + (self.body if grow else self.body[:-1])
 
 class Apple:
     def __init__(self, apple_spot):
         self.apple_spot = apple_spot
-        
+
     def random_spot(self, height, width, body):
-        board_spot = []
-        for i in range(height):
-            for k in range(width): 
-                board_spot.append((i,k))
-
-        board_spot = [coord for coord in board_spot if coord not in body]
-
-        self.apple_spot = random.choice(board_spot)
+        # Generate all positions not occupied by snake
+        available = [(r, c) for r in range(height) for c in range(width) if (r, c) not in body]
+        self.apple_spot = random.choice(available) if available else (0, 0)  # Fallback if board full
         return self.apple_spot
 
 class Game:
     def __init__(self, height, width):
-        self.height = height
-        self.width = width
-        start_row = random.randint(2, height - 3)
-        start_col = random.randint(4, width - 5)
-        self.snake_object = Snake([(start_row, start_col), (start_row, start_col-1), (start_row, start_col-2), (start_row, start_col-3)], (0, 0))
-        self.apple_place = Apple((0, 0))
-        self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
+        self.height, self.width = height, width
+        r, c = random.randint(2, height - 3), random.randint(4, width - 5)
+        self.snake = Snake([(r, c), (r, c-1), (r, c-2), (r, c-3)], (0, 0))
+        self.apple = Apple((0, 0))
+        self.apple.random_spot(height, width, self.snake.body)
         self.score = 0
 
- 
     def board_matrix(self):
-        board_matrix = []
-        for i in range(self.height):
-            rows = []
-            for i in range(self.width):
-                rows.append(None)
-            board_matrix.append(rows)
-
-        for place in self.snake_object.body:
-            board_matrix[place[0]][place[1]] = 'O'
-
-        head = self.snake_object.get_head()
-        board_matrix[head[0]][head[1]] = 'X'
-
-        apple_coords = self.apple_place.apple_spot 
-        board_matrix[apple_coords[0]][apple_coords[1]] = 'A'
-
-        return board_matrix
+        # Create empty board
+        matrix = [[None] * self.width for _ in range(self.height)]
+        # Place snake body, then head, then apple
+        for r, c in self.snake.body:
+            matrix[r][c] = 'O'
+        head = self.snake.body[0]
+        matrix[head[0]][head[1]] = 'X'
+        matrix[self.apple.apple_spot[0]][self.apple.apple_spot[1]] = 'A'
+        return matrix
 
     def play(self):
+        keys = {'w': (-1,0), 'a': (0,-1), 's': (1, 0), 'd': (0,1)}
         while True:
-            os.system('clear')
-            keys = {'w': (-1,0), 'a': (0,-1), 's': (1, 0), 'd': (0,1)}
+            os.system('cls' if os.name == 'nt' else 'clear')
             self.render()
             move = input()
-            head = self.snake_object.get_head()
-            direktion = self.snake_object.direction
-            anti_direktion = ((-1) * (direktion[0]), (-1) * direktion[1])
-            if move in keys and keys[move] != anti_direktion:
-                self.snake_object.set_direction(keys[move])
-                direktion = self.snake_object.direction
+            head, direktion = self.snake.body[0], self.snake.direction
+            anti = (-direktion[0], -direktion[1])
+            if move in keys and keys[move] != anti:
+                direktion = self.snake.direction = keys[move]
             if direktion == (0, 0):
                 continue
-            new_head = (head[0] + direktion[0], head[1] + direktion[1])
-            new_head = (new_head[0] % self.height, new_head[1] % self.width)
-            if new_head in self.snake_object.body:
-                os.system('clear')
+            new_head = ((head[0] + direktion[0]) % self.height, (head[1] + direktion[1]) % self.width)
+            if new_head in self.snake.body:
+                os.system('cls' if os.name == 'nt' else 'clear')
                 print("GAME OVER")
-                break 
-            if new_head == self.apple_place.apple_spot:
+                break
+            # Eat apple or move
+            if new_head == self.apple.apple_spot:
                 self.score += 1
-                self.snake_object.grow_tail(new_head)
-                self.apple_place.random_spot(self.height, self.width, self.snake_object.body)
+                self.snake.move(new_head, grow=True)
+                self.apple.random_spot(self.height, self.width, self.snake.body)
             else:
-                self.snake_object.take_step(new_head)
+                self.snake.move(new_head)
 
     def render(self):
         matrix = self.board_matrix()
-        
-        print('+', end="")
-        for i in range(self.width):
-            print('-', end="")
-        print('+', end="")
-        print()
-
-
-        for i in range(self.height):
-            print('|', end="")
-            for k in range(self.width):
-                if matrix[i][k] == None:
-                    print(" ", end="")
-                else:
-                    print(matrix[i][k], end="")
-            print('|', end="")
-            print()
- 
-        print('+', end="")
-        for i in range(self.width):
-            print('-', end="")
-        print('+', end="")
-        print()
-        print()
-        print()
-        print(f"Score: {self.score}")
-
+        border = '+' + '-' * self.width + '+'
+        print(border)
+        for row in matrix:
+            print('|' + ''.join(cell if cell else ' ' for cell in row) + '|')
+        print(f"{border}\n\n\nScore: {self.score}")
 
 game = Game(10, 10)
 game.play()
-
