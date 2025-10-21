@@ -67,10 +67,10 @@ class Game:
 
     def render(self):
         matrix = self.board_matrix()
-        border = '+' + '-' * self.width + '+'
+        border = '+' + '--' * self.width + '+'
         print(border)
         for row in matrix:
-            print('|' + ''.join(cell if cell else ' ' for cell in row) + '|')
+            print('|' + ''.join(cell + ' ' if cell else '  ' for cell in row) + '|')
         print(f"{border}\n\n\nScore: {self.score}")
 
 game = Game(10, 10)
