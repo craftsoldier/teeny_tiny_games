@@ -96,3 +96,35 @@
 ## PROJECT COMPLETE! 🎉
 
 ---
+
+### [4:00pm - 4:15pm] Vocabulary Expansion
+- Researched word list sources online ✅
+- Downloaded words.txt from GitHub (853 words) ✅
+- Implemented file reading with `.read().split('\n')` ✅
+- Refactored `word_generator()` to read from file ✅
+- Fixed bugs:
+  - Line 5: `randint()` syntax fixed ✅
+  - Line 34: Removed undefined `number` parameter ✅
+- **Status:** COMPLETE & TESTED
+- **Duration:** ~15 minutes
+
+---
+
+## FINAL STATS (4:15pm)
+- **Total Project Time:** ~70 minutes (3:04pm - 4:15pm)
+- **Original Deadline:** 4:00pm
+- **Actual Completion:** 3:55pm (v1.0), 4:15pm (v1.1 with expanded vocab)
+- **Lines of Code:** 55
+- **Vocabulary Size:** 853 words (up from 3!)
+- **Status:** ✅ FULLY FUNCTIONAL with expanded word list
+
+## Skills Learned:
+✅ Game logic design & implementation
+✅ Input validation
+✅ Win/loss condition handling
+✅ File I/O (reading from .txt files)
+✅ Random selection from lists
+✅ Debugging syntax & logic errors
+✅ String manipulation & list comprehensions
+
+---

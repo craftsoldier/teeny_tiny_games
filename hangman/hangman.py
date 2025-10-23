@@ -1,7 +1,8 @@
 import random
 
-def word_generator(number):
-    word_list =  ["python", "hangman", "coding"]
+def word_generator():
+    word_list = open('words.txt').read().split('\n')
+    number = random.randint(0, len(word_list) - 1)
     word = word_list[number]
     return word
 
@@ -28,10 +29,9 @@ def check_win(word, dashes = None):
     return game_won
 
 def main():
-    number = random.randint(0, 2)
     dashes = None
     letter = None
-    word = word_generator(number)
+    word = word_generator()
     display_word(word, dashes, letter)
     incorrect = 0
     while incorrect < 6:
