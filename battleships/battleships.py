@@ -169,8 +169,6 @@ class Game:
             
             input("press enter..")
             player = 1 - player 
-            
-
 
 game = Game()
 game.play()
