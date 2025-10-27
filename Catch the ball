@@ -1,0 +1,87 @@
+import pygame
+import random
+import sys
+
+pygame.init()
+
+width = 500
+height = 400
+screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Catch the Ball")
+
+white = (255, 255, 255)
+red = (255, 0, 0)
+blue = (0, 0, 255)
+
+paddle_w = 80
+paddle_h = 10
+paddle_x = width // 2 - paddle_w // 2
+paddle_y = height - 30
+paddle_speed = 6
+
+ball_size = 15
+ball_x = random.randint(ball_size, width - ball_size)
+ball_y = 0
+ball_speed = 5
+
+score = 0
+font = pygame.font.Font(None, 36)
+
+
+clock = pygame.time.Clock()
+running = True
+
+while running:
+      
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
+
+    # Paddle movement
+    keys = pygame.key.get_pressed()
+    if keys[pygame.K_LEFT] and paddle_x > 0:
+        paddle_x -= paddle_speed
+    if keys[pygame.K_RIGHT] and paddle_x < width    - paddle_w:
+        paddle_x += paddle_speed
+
+    ball_y += ball_speed
+
+
+    # Collision check
+    ball_bottom = ball_y + ball_size
+    if (ball_bottom >= paddle_y and
+        ball_x >= paddle_x and
+        ball_x <= paddle_x + paddle_w):
+        score += 1
+        ball_y = 0
+        ball_x = random.randint(ball_size, width - ball_size)
+
+    # Missed ball
+    if ball_y - ball_size > height:
+        running = False
+        
+
+    screen.fill(white)
+    pygame.draw.rect(screen, blue, (paddle_x, paddle_y, paddle_w, paddle_h))
+    pygame.draw.circle(screen, red, (int(ball_x), int(ball_y)), ball_size)
+
+    text = font.render("Score:", True, (0, 0, 0))
+    screen.blit(text, (10, 10))
+    score_value = font.render(str(score), True, (0, 0, 0))
+    screen.blit(score_value, (100, 10))
+
+    pygame.display.flip()
+    clock.tick(60)
+
+# Game over
+screen.fill(white)
+text = font.render(f"Game Over! Final Score: {score}", True, (0, 0, 0))
+image = pygame.image.load('C:\\Users\\rdsec\\Downloads\\sadwojak.jpeg')
+
+screen.blit(image, (150, 100))
+screen.blit(text, (100, 50))
+pygame.display.flip()
+pygame.time.wait(3000)
+pygame.quit()
+sys.exit()
