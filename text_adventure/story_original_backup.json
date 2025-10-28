@@ -1,0 +1,1159 @@
+{
+  "intro": {
+    "title": "Love in the City of Dreams",
+    "story": [
+      "You never believed in love at first sight. Not until that Tuesday morning at the coffee shop when you locked eyes with Alex across a sea of laptop screens and overpriced lattes. Your heart skipped. Time slowed. And for one perfect moment, nothing else in the world existed.",
+      "Three months later, you're living together in a cozy apartment with mismatched furniture and big dreams. Alex got offered a promotion at their company, but there's a catch - they have to choose between two cities. New York means a corner office, a six-figure salary, and rubbing elbows with executives. It also means long hours, constant pressure, and Alex's charming ex, Jordan, who just happens to work at the New York branch.",
+      "Paris, on the other hand, is romantic. Intimate. A smaller role, but more work-life balance. You've always talked about living abroad together, sipping wine on balconies, getting lost in cobblestone streets. But Paris also means Alex's childhood friend Riley will be their direct supervisor - and you've seen the old photos. Riley had feelings for Alex once. Maybe they still do.",
+      "Tonight, over takeout containers and nervous laughter, Alex turns to you with those eyes you fell for and says, 'I need you to help me decide. Where should we go? What kind of life do you want us to build together?'"
+    ],
+    "options": [
+      {
+        "text": "New York is where dreams come true. Sure, Jordan's there, but I trust us. Let's take the promotion and build an empire together.",
+        "arc": "new-york"
+      },
+      {
+        "text": "Paris is what we've always wanted. Forget the corporate ladder - let's choose love, adventure, and croissants. Riley won't be a problem.",
+        "arc": "paris"
+      }
+    ]
+  },
+  "new-york": {
+    "title": "The Big Apple Bite",
+    "story": [
+      "Moving day is chaos. Boxes everywhere, a U-Haul double-parked, your new landlord yelling about blocking the loading zone. But when you finally collapse on the air mattress that night - your furniture won't arrive until tomorrow - Alex pulls you close and whispers, 'We did it. We're really here.' Through the window, the Manhattan skyline glitters like a promise.",
+      "The apartment is tiny. A studio in Hell's Kitchen that costs more than your old two-bedroom back home. But it has exposed brick, hardwood floors that creak in the right way, and that view. Alex starts their new position on Monday. You have two weeks before your remote work setup begins. Two weeks to figure out how to be a New Yorker."
+    ],
+    "options": [
+      {
+        "text": "This is the start of something amazing.",
+        "arc": "new-york-settling"
+      }
+    ]
+  },
+  "new-york-settling": {
+    "title": "Finding Your Rhythm",
+    "story": [
+      "The first week, you play tourist. You walk the High Line, get lost in Central Park, overpay for coffee in Greenwich Village. You tell yourself you're exploring your new home, but really, you're lonely. Alex leaves at 7 AM and comes home at 7 PM, exhausted but electric with new-job energy. They tell you about their corner office, the view of the Chrysler Building, the free lunch catering.",
+      "You're happy for them. You are. But you're also eating dinner alone most nights, scrolling through job postings, wondering if you made the right choice.",
+      "By the end of week two, you've found a decent bodega, figured out the subway, and located the nearest Target. Small victories. Alex seems to have found their rhythm immediately - they already have inside jokes with their team, already know which conference rooms have the best wifi, already belong.",
+      "You're still trying to figure out where you fit."
+    ],
+    "options": [
+      {
+        "text": "A few weeks pass...",
+        "arc": "new-york-month-one"
+      }
+    ]
+  },
+  "new-york-month-one": {
+    "title": "Settling In",
+    "story": [
+      "One month in, Alex's company throws a happy hour. 'You should come,' Alex says over breakfast. 'Meet the team. See my office. It'll be fun.' There's something in their voice - eagerness mixed with... is that nervousness?",
+      "You agree, of course. You put on your good outfit, the one that says 'I'm successful and definitely not feeling insecure.' The office is everything Alex described and more. Floor-to-ceiling windows, modern furniture, a coffee bar that would make Starbucks jealous.",
+      "Alex introduces you around. Marcus from accounting. Sofia from marketing. Everyone is friendly, polished, confident. Then Alex says, 'Oh, and this is Jordan. We're working on the Morrison account together.'",
+      "Jordan is... exactly what you were afraid of. Charming smile, expensive suit, effortless charisma. They shake your hand with perfect pressure. 'I've heard so much about you. Alex talks about you constantly.' But there's something in the way they look at Alex when they say it. Something that makes your stomach twist.",
+      "The evening continues. You notice things. The way Jordan touches Alex's arm when they laugh. The inside jokes you're not part of. The way Alex lights up when Jordan walks over. You tell yourself you're being paranoid. You tell yourself these are just coworkers. You tell yourself trust is important.",
+      "But doubt plants itself in your chest like a seed, and you know it's only a matter of time before it grows."
+    ],
+    "options": [
+      {
+        "text": "Focus on building your own career and social life in New York. You need your own thing.",
+        "arc": "new-york-career-focus"
+      },
+      {
+        "text": "Support Alex fully. Attend more work events, get to know their colleagues, be the perfect partner.",
+        "arc": "new-york-support-alex"
+      },
+      {
+        "text": "Find a balance. Pursue your own interests while staying connected to Alex's world.",
+        "arc": "new-york-balanced"
+      }
+    ]
+  },
+  "new-york-career-focus": {
+    "title": "Building Your Own Empire",
+    "story": [
+      "You throw yourself into your own work. Networking events. Coffee meetings. You join a young professionals group, start taking a class at NYU, cultivate your own New York identity separate from being 'Alex's partner.'",
+      "It feels good. Empowering. You're not just the person who followed their partner to the city - you're building something of your own. You make friends who don't know Alex, who ask about your day, your dreams, your ambitions.",
+      "But there's a cost. You and Alex start operating on parallel tracks. Ships passing in the night. They have their work world; you have yours. Date nights become rare. Conversations become transactional. 'Did you pay the electric bill?' 'Can you grab milk on your way home?'",
+      "You notice Jordan's name coming up more and more. 'Jordan and I have to work late.' 'Jordan suggested this new project management system.' But you're too busy with your own life to worry much about it.",
+      "Until you're not."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "new-york-jordan-intro"
+      }
+    ]
+  },
+  "new-york-support-alex": {
+    "title": "The Supportive Partner",
+    "story": [
+      "You become a fixture at Alex's work events. You learn everyone's names, remember their kids' ages, ask thoughtful follow-up questions. You become known as Alex's incredibly supportive partner. The person who always shows up, always smiles, always plays the role perfectly.",
+      "Alex appreciates it. They squeeze your hand during presentations, introduce you with pride, thank you for being there. Jordan is often at these events too. You try to befriend them. Try to be the bigger person. Try to believe that your security in the relationship means you can be gracious.",
+      "But you notice things. The way Jordan monopolizes Alex's attention. The way they find reasons to pull Alex aside for 'quick work conversations.' The way Alex's energy changes when Jordan is around - more animated, more engaged.",
+      "You're present for everything, but somehow you feel invisible. You've made yourself so available, so accommodating, that you're no longer a priority - you're a given. And givens are easy to take for granted.",
+      "Your own career stalls. Your own friendships fade. You've built your life around supporting Alex's dreams, and you're starting to wonder what happened to your own."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "new-york-jordan-intro"
+      }
+    ]
+  },
+  "new-york-balanced": {
+    "title": "Walking the Tightrope",
+    "story": [
+      "You find a middle path. You attend some of Alex's work events, but not all. You build your own career, but you make time for date nights. You make your own friends, but you get to know Alex's colleagues too. It's a balancing act, and some days you nail it. Some days you don't.",
+      "Jordan becomes familiar. You see them at the occasional work function. They're always polite, always professional. You even have a few decent conversations - turns out you both love the same obscure podcast. You start to think maybe your initial jealousy was unfounded.",
+      "Alex seems happy. Not consumed by work, but engaged with it. Not neglecting you, but not smothering you either. You're building a life together in New York that feels sustainable. Challenging, but sustainable.",
+      "You're not perfect. You have moments of insecurity. Moments when you see Alex texting Jordan late at night about work and you wonder if it's really just work. Moments when Alex cancels date night for a work emergency and you bite back resentment. But you communicate. You check in. You try.",
+      "And for a while, it seems like trying is enough."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "new-york-jordan-intro"
+      }
+    ]
+  },
+  "new-york-jordan-intro": {
+    "title": "The Second Month",
+    "story": [
+      "The second month brings changes. Alex is up for a promotion already - their work on the Morrison account caught attention. But it means longer hours, higher stakes, more pressure. And more time with Jordan, who's now being considered for a parallel promotion. They're competing and collaborating simultaneously.",
+      "You start noticing the late nights. 'Just drinks with the team,' Alex says, kissing your forehead before heading out at 9 PM. You try not to think about Jordan, but their name comes up constantly. 'Jordan suggested this restaurant.' 'Jordan made the funniest joke today.' 'Jordan thinks I should apply for the director position.'",
+      "It's Wednesday night. Alex is home for once, but they're distracted, laptop open, barely listening as you talk about your day. You stop mid-sentence. They don't notice.",
+      "'Alex,' you say, a little sharper. They look up, startled. 'Sorry, what?'",
+      "You want to say: I miss you. I'm worried about us. Jordan's name is a constant presence in our home and I don't know how to feel about it. But instead you say, 'Nothing. Never mind.' And Alex returns to their screen, the moment lost."
+    ],
+    "options": [
+      {
+        "text": "Be friendly to Jordan. Maybe if you get to know them better, you'll feel less threatened.",
+        "arc": "new-york-befriend-jordan"
+      },
+      {
+        "text": "Keep your distance. Stay polite but don't engage more than necessary.",
+        "arc": "new-york-distance-jordan"
+      },
+      {
+        "text": "Talk to Alex about your discomfort now, before it gets worse.",
+        "arc": "new-york-early-talk"
+      }
+    ]
+  },
+  "new-york-befriend-jordan": {
+    "title": "Keep Your Enemies Closer",
+    "story": [
+      "You decide to try. You invite Jordan to brunch when they mention liking the same neighborhood you live in. You ask Alex to bring them to game night with your new friend group. You're friendly when you see them at work events, asking about their life, their interests.",
+      "Jordan seems surprised but pleased. You learn they're actually pretty funny. They're obsessed with their rescue dog. They volunteer at a community garden. They're a real person, not a villain from your imagination.",
+      "For a moment, you feel silly about your jealousy. Jordan is just Alex's coworker. They can both exist in Alex's life without it being a threat to you. You start to relax.",
+      "Then one Friday evening, Alex texts: 'Emergency presentation prep. Gonna be another late one. Don't wait up.' You're staring at your phone when it buzzes again. But this time it's not from Alex.",
+      "It's a message from an unknown number with a photo attached. The image shows Alex and Jordan at a dimly lit bar, Jordan's hand on Alex's arm, both of them laughing. The message reads: 'Thought you should know what Friday night presentations look like. - A Friend'",
+      "Your hands shake. Your stomach drops. You tried to be the bigger person, tried to trust, tried to befriend the threat. And this is what you get.",
+      "Everything you've built together suddenly feels like it's constructed on sand."
+    ],
+    "options": [
+      {
+        "text": "Show up at that bar right now. Confront them both and demand the truth.",
+        "arc": "confrontation"
+      },
+      {
+        "text": "Don't jump to conclusions. Wait for Alex to come home and have an honest conversation like adults.",
+        "arc": "patient-talk"
+      },
+      {
+        "text": "This is too much. Pack a bag and stay at a hotel tonight. You need space to think.",
+        "arc": "space"
+      }
+    ]
+  },
+  "new-york-distance-jordan": {
+    "title": "Professional Distance",
+    "story": [
+      "You keep Jordan at arm's length. Polite, but cool. When they try to make conversation at events, you keep it brief. When Alex suggests including them in social plans, you find reasons to decline. You don't badmouth them, but you don't warm up either.",
+      "Alex notices. 'You don't like Jordan, do you?' they ask one night. You shrug. 'I don't really know them.' 'Well, maybe if you tried...' But you change the subject. You don't want to seem jealous or controlling, so you stay quiet about your discomfort.",
+      "The distance you maintain from Jordan creates a small distance from Alex too. There's a part of their life you're not engaging with. A part you're holding yourself separate from. You tell yourself it's healthy boundaries. But it might also be the beginning of a wall.",
+      "The late nights continue. Jordan's name continues to pepper Alex's conversations. You notice but don't comment. You trust but verify - checking Alex's phone location, monitoring when they come home, cataloging the excuses.",
+      "Then one Friday evening, Alex texts: 'Emergency presentation prep. Gonna be another late one. Don't wait up.' You're staring at your phone, feeling that familiar knot of anxiety, when it buzzes again.",
+      "It's a message from an unknown number with a photo attached. The image shows Alex and Jordan at a dimly lit bar, Jordan's hand on Alex's arm, both of them laughing. The message reads: 'Thought you should know what Friday night presentations look like. - A Friend'",
+      "Your hands shake. Your stomach drops. Your instinct to keep distance was right. But knowing you were right doesn't make this hurt any less."
+    ],
+    "options": [
+      {
+        "text": "Show up at that bar right now. Confront them both and demand the truth.",
+        "arc": "confrontation"
+      },
+      {
+        "text": "Don't jump to conclusions. Wait for Alex to come home and have an honest conversation like adults.",
+        "arc": "patient-talk"
+      },
+      {
+        "text": "This is too much. Pack a bag and stay at a hotel tonight. You need space to think.",
+        "arc": "space"
+      }
+    ]
+  },
+  "new-york-early-talk": {
+    "title": "The Difficult Conversation",
+    "story": [
+      "That night, after Alex finally closes the laptop, you sit down across from them. 'We need to talk.' Four words that make Alex's face tighten with concern.",
+      "'What's wrong?'",
+      "'I need to be honest with you about something. Jordan's name comes up a lot. You're spending a lot of time together. And I'm trying not to be jealous or controlling, but I'd be lying if I said I was completely comfortable with it.'",
+      "Alex is quiet for a moment. Then they reach for your hand. 'Thank you for telling me. I know Jordan and I have been working closely. But it's just work. There's nothing else there.'",
+      "'I believe you,' you say. 'But I need you to understand that I'm feeling a little... secondary right now. To your job, to Jordan, to everything else in your new life here.'",
+      "Alex's eyes fill with tears. 'God, I'm so sorry. I've been so caught up in proving myself at this job that I haven't been present for us. That's not okay.'",
+      "You talk for hours. Alex promises to set better boundaries. To be more intentional about date nights. To be mindful of how much they talk about work - and Jordan - at home. You promise to speak up when you're feeling insecure instead of letting it fester.",
+      "It's not a magic fix. But it's a start. For a few weeks, things are better. Alex comes home earlier. You have actual conversations. You feel like partners again.",
+      "Then one Friday evening, Alex texts: 'Emergency presentation prep with Jordan. Gonna be another late one. Don't wait up.' The message lands differently now - like a broken promise. Then your phone buzzes again.",
+      "It's from an unknown number with a photo attached. The image shows Alex and Jordan at a dimly lit bar, Jordan's hand on Alex's arm, both of them laughing. The message reads: 'Thought you should know what Friday night presentations look like. - A Friend'",
+      "You had the conversation. You set the boundaries. Alex promised. And here you are anyway, staring at this photo, wondering if honesty even matters when someone is determined to break your trust."
+    ],
+    "options": [
+      {
+        "text": "Show up at that bar right now. Confront them both and demand the truth.",
+        "arc": "confrontation"
+      },
+      {
+        "text": "Don't jump to conclusions. Wait for Alex to come home and have an honest conversation like adults.",
+        "arc": "patient-talk"
+      },
+      {
+        "text": "This is too much. Pack a bag and stay at a hotel tonight. You need space to think.",
+        "arc": "space"
+      }
+    ]
+  },
+  "confrontation": {
+    "title": "The Bar Scene",
+    "story": [
+      "You throw on a jacket and practically run to the address visible in the photo's background. Your heart is hammering so hard you can hear it over the New York traffic. Every block feels like a mile. Every person on the sidewalk is an obstacle between you and the truth.",
+      "You're running scenarios in your head. What if they're kissing when you walk in? What if they're holding hands? What if the photo caught the most innocent moment of a very non-innocent evening? You're preparing yourself for heartbreak, armor yourself against the worst.",
+      "When you burst through the bar doors, you spot them immediately. Alex and Jordan, sitting close in a corner booth. Your stomach drops. Then you see the rest: papers spread between them, Jordan's laptop open, Alex's reading glasses on (the ones they only wear when they're working), empty coffee cups instead of wine glasses.",
+      "They're actually working."
+    ],
+    "options": [
+      {
+        "text": "Take a breath and assess...",
+        "arc": "confrontation-moment"
+      }
+    ]
+  },
+  "confrontation-moment": {
+    "title": "Reality Check",
+    "story": [
+      "Alex looks up, surprised. 'Babe? What are you doing here?' There's genuine confusion on their face, not guilt. No panic. No deer-in-headlights freeze. Just confusion and concern.",
+      "Jordan quickly removes their hand from Alex's arm, looking uncomfortable. You realize, with a clarity that makes you feel sick, that Jordan had been pointing at something on the screen. A presentation slide, maybe. A spreadsheet. Something completely professional.",
+      "You stand there in your thrown-on jacket, out of breath from running, face flushed with adrenaline and embarrassment. You're the person who just burst into their partner's work meeting because of an anonymous photo. You're the jealous partner in a movie who looks ridiculous in the third act.",
+      "Alex excuses themselves from Jordan, walking over to you with concern etched across their features. 'What's wrong? You look like you've seen a ghost.' They touch your arm gently. 'Are you okay? Did something happen?'",
+      "The kindness in their voice almost breaks you. You have a choice. You can be honest about your fear and vulnerability. Or you can protect your pride and pretend this was casual, no big deal, you were just in the neighborhood.",
+      "But this moment matters. You can feel it. The choice you make right now will set the trajectory for everything that follows."
+    ],
+    "options": [
+      {
+        "text": "Show them the photo. Admit you were scared and jealous. Be vulnerable about your fears.",
+        "arc": "honest-jealousy"
+      },
+      {
+        "text": "Play it cool. Say you were just in the neighborhood and thought you'd surprise them. Hide your insecurity.",
+        "arc": "play-cool"
+      }
+    ]
+  },
+  "honest-jealousy": {
+    "title": "Vulnerability Wins",
+    "story": [
+      "With shaking hands, you show Alex the photo and the message. 'I got this tonight. And I know it looks like you're working, but I've been feeling so... distant from you lately. The late nights, Jordan's name constantly coming up. I got scared.'",
+      "Alex's expression shifts from confusion to understanding to something tender. They pull you into a hug right there in the middle of the bar. 'I'm so sorry. I've been so focused on proving myself at work that I haven't noticed I've been neglecting us. Jordan is just a colleague - honestly, they're kind of annoying. They talk way too much about cryptocurrency.'",
+      "You both laugh through tears. Alex pulls back and looks at you seriously. 'Someone sent this to hurt us. That's messed up. But I'm glad you came here. I'm glad you told me how you felt instead of letting it fester.'",
+      "Jordan comes over, concerned. 'Is everything okay?' Alex explains the photo. Jordan's face goes pale. 'Someone's trying to sabotage us. Both of us. We're competing for the same promotion.' The three of you piece it together - one of the other managers, someone with access to both your phone numbers, someone who benefits from both Alex and Jordan being distracted.",
+      "Jordan looks at you directly. 'For what it's worth, I'm engaged. My partner's name is Sam. We've been together four years. Alex is a colleague. Period.' They show you their phone background - a picture of them with someone else, both in matching Halloween costumes, both clearly in love."
+    ],
+    "options": [
+      {
+        "text": "The next few weeks...",
+        "arc": "honest-jealousy-resolution"
+      }
+    ]
+  },
+  "honest-jealousy-resolution": {
+    "title": "Choosing Each Other",
+    "story": [
+      "Over the next few weeks, things shift. Alex sets boundaries at work. Date nights become non-negotiable. No work talk after 8 PM. No checking emails in bed. They're present in a way they haven't been since before the move.",
+      "You meet Sam, Jordan's partner, at a dinner Alex organizes. Sam is a graphic designer, funny and warm, and clearly head over heels for Jordan. Watching them together, you feel silly about your jealousy. But also validated - Jordan and Alex did spend a lot of time together. Your feelings weren't baseless, just misdirected.",
+      "The coworker who sent the photo gets caught sending similar messages to other employees. HR gets involved. There's a small scandal. Both Alex and Jordan get apologies from the company. Jordan gets the promotion. Alex... doesn't.",
+      "You expect Alex to be devastated. Instead, they come home thoughtful. 'I don't think I want this anymore,' they say that night, curled up on the couch together. 'The politics, the games, the constant competition. I miss actually liking what I do.'",
+      "'What do you want?' you ask.",
+      "'I want to build something with you. Something that's ours. Not a job where we're second place to quarterly earnings. An actual partnership.'"
+    ],
+    "options": [
+      {
+        "text": "Six months later...",
+        "arc": "honest-jealousy-ending"
+      }
+    ]
+  },
+  "honest-jealousy-ending": {
+    "title": "Brooklyn Bridge",
+    "story": [
+      "Six months later, you're walking across the Brooklyn Bridge at sunset. The city is bathed in gold light. Your new business - a consulting firm that combines both your skills - just signed its third major client. It's not a corner office or a six-figure salary, but it's yours. Together.",
+      "Alex stops mid-bridge and turns to you. 'I need to ask you something.' There's a nervousness in their voice that makes your heart skip.",
+      "'The night you showed up at that bar, scared and honest and willing to be vulnerable even though it was terrifying - that's when I knew. Really knew. You could have played it cool. You could have let resentment build until we exploded. But you chose us. You chose honesty. You chose to fight for us instead of against each other.'",
+      "They pull out a small box. 'So I'm choosing you. Every day. For the rest of my life. Will you marry me?'",
+      "The sunset, the bridge, the city that almost broke you but instead made you stronger - it all becomes background to this moment. To this person who learned to prioritize you. To this choice you're both making, consciously and clearly."
+    ],
+    "options": [
+      {
+        "text": "Say yes. Build a life together. This is your happy ending.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "play-cool": {
+    "title": "Pride Before the Fall",
+    "story": [
+      "You force a smile. 'Oh, I was just grabbing dinner nearby and saw you through the window. Thought I'd say hi.' The lie tastes bitter in your mouth. But you refuse to be that partner - the jealous one, the insecure one, the one who makes scenes.",
+      "Alex seems to buy it, though something flickers in their eyes. Disappointment, maybe? Or is that just what you want to see? 'That's sweet, but we've got another hour of work here. Jordan and I are finalizing the Morrison pitch. I'll see you at home?' They kiss your cheek and return to the booth.",
+      "You walk home alone, the anonymous photo burning a hole in your phone. You'll never show Alex. You'll never admit you came here because of it. You'll bury this fear like you've buried all the others."
+    ],
+    "options": [
+      {
+        "text": "Two weeks later...",
+        "arc": "play-cool-deterioration-one"
+      }
+    ]
+  },
+  "play-cool-deterioration-one": {
+    "title": "The First Cracks",
+    "story": [
+      "Two weeks pass. Alex keeps working late. You keep saying you're fine with it. The lies are small at first, almost imperceptible. 'How was your day?' 'Fine.' It wasn't fine. You spent two hours staring at your laptop, unable to focus, wondering where Alex was and who they were with.",
+      "'Want to talk about it?' 'About what?' Everything. Nothing. The way you're drifting apart and neither of you is willing to name it.",
+      "You notice things. A new cologne. Alex says Jordan recommended it. Secretive phone calls that Alex takes in the other room. 'Just work stuff, you wouldn't understand.' The implication being that you're not part of that world. You're just the person waiting at home.",
+      "One night, Alex comes home at 11 PM smelling like wine and someone else's perfume. 'Team drinks,' they explain, already heading to the shower. You want to ask: Was Jordan there? Did you sit next to them? Did they make you laugh the way I used to? But you don't. You just say 'okay' and go back to pretending to read your book."
+    ],
+    "options": [
+      {
+        "text": "Another month passes...",
+        "arc": "play-cool-deterioration-two"
+      }
+    ]
+  },
+  "play-cool-deterioration-two": {
+    "title": "The Breaking Point",
+    "story": [
+      "Another month. The distance grows. You're roommates who sometimes have sex and rarely have conversations. Alex is climbing the corporate ladder. You're treading water, trying not to drown in a city that still doesn't feel like home.",
+      "You start snooping. You hate yourself for it, but you do it anyway. Going through Alex's phone when they're in the shower. Checking their location. Reading their texts with Jordan. Nothing explicitly inappropriate, but an intimacy that feels worse than a kiss would. Inside jokes. Late-night conversations. 'You get me' and 'I don't know what I'd do without you.'",
+      "Where do you fit in Alex's life anymore? Are you the partner or just the person who shares the lease?",
+      "Three months after the photo, you're doing laundry and find a receipt in Alex's jacket pocket. Dinner for two at Le Bernardin - the restaurant where you had your first anniversary. The date on the receipt is from last Tuesday. Last Tuesday when Alex said they had a work dinner. Last Tuesday when you ate leftover Chinese food alone.",
+      "Your hands shake as you hold the receipt. This is it. The evidence you've been looking for and dreading in equal measure."
+    ],
+    "options": [
+      {
+        "text": "Confront Alex tonight. You can't pretend anymore.",
+        "arc": "play-cool-confrontation"
+      }
+    ]
+  },
+  "play-cool-confrontation": {
+    "title": "The Truth",
+    "story": [
+      "When Alex comes home that night, you're waiting with the receipt on the coffee table. No preamble. No small talk. Just: 'Want to explain this?'",
+      "Alex sees it and their face crumbles. 'I can explain.'",
+      "'Please do. Because I'm really curious how you explain having dinner at our anniversary restaurant with someone who isn't me.'",
+      "'It was Jordan's birthday. The team took them out. I didn't think—'",
+      "'You didn't think I'd find out? Or you didn't think I'd care?' Your voice is rising. Months of buried feelings erupting. 'You've been pulling away for months. Late nights. Secret phone calls. That goddamn cologne. And now our restaurant? The place that was supposed to be ours?'",
+      "Alex sits down heavily. 'You're right. I'm sorry. Jordan and I... we've gotten close. Too close. Nothing physical happened, I swear. But there's been an emotional intimacy that crossed lines.'",
+      "'Why?' The question comes out broken.",
+      "'Because they understand the work pressure. Because we're in the trenches together. Because...' Alex trails off.",
+      "'Because I'm not enough,' you finish. The truth you've been avoiding. The truth that's been obvious for months.",
+      "'Because I made you feel that way,' Alex says quietly. 'And you never told me. That night at the bar, when you showed up - you could have been honest. But you played it cool. And I could have been honest about how Jordan and I were getting too close. But I told myself it was fine because nothing physical happened. We both chose pride over truth. And now here we are.'"
+    ],
+    "options": [
+      {
+        "text": "Some bridges, once burned, can't be rebuilt. Walk away and start over.",
+        "arc": "tragic-ending"
+      },
+      {
+        "text": "Suggest couples therapy. Maybe you can save this if you both try harder.",
+        "arc": "therapy-ending"
+      }
+    ]
+  },
+  "patient-talk": {
+    "title": "Trust and Communication",
+    "story": [
+      "You delete the photo without responding. Anonymous troublemakers don't deserve your energy. Instead, you make tea and wait on the couch, a book open but unread in your lap. The words blur together. You're not actually reading; you're thinking. Preparing. Deciding how to approach this.",
+      "You could spiral. You could assume the worst. You could pack a bag or show up at that bar or text back demanding explanations. But you've chosen trust. Now you have to follow through."
+    ],
+    "options": [
+      {
+        "text": "Midnight arrives...",
+        "arc": "patient-talk-conversation"
+      }
+    ]
+  },
+  "patient-talk-conversation": {
+    "title": "The Talk",
+    "story": [
+      "Alex comes home at midnight, exhausted and apologetic. 'I'm so sorry, babe. Jordan is a nightmare to work with - they kept changing the presentation every five minutes.' They start to collapse next to you on the couch, then notice your posture. The way you're sitting very still. The cold tea on the table.",
+      "'What's wrong?'",
+      "You show them the photo calmly. 'I got this tonight. I'm not accusing you of anything, but I need you to know that someone is trying to mess with us. And also, I need you to know that I've been feeling a little lonely lately.'",
+      "Alex's face goes through a journey. Confusion. Anger at whoever sent the photo. Then something softer - guilt. 'You've been feeling lonely?'",
+      "'Yeah,' you say quietly. 'I have.'",
+      "Alex sits up, suddenly very awake. They take your hand. 'I had no idea someone would do this - send a photo like this. But more importantly, I had no idea you were feeling lonely. God, I'm such an idiot. I've been so caught up in work, in proving myself, that I haven't been present for us.'",
+      "'I should have said something earlier,' you admit. 'I didn't want to seem unsupportive of your career. So I stayed quiet. That was wrong too.'"
+    ],
+    "options": [
+      {
+        "text": "Talk through the night...",
+        "arc": "patient-talk-resolution"
+      }
+    ]
+  },
+  "patient-talk-resolution": {
+    "title": "Building Something Better",
+    "story": [
+      "That night turns into a long conversation. Alex admits the promotion has been more stressful than expected. The competition with Jordan. The pressure from management. The imposter syndrome of being the new person trying to prove themselves worthy of the opportunity.",
+      "You admit you've been afraid to voice your needs. Afraid of being the needy partner. Afraid of being the reason Alex doesn't succeed. Afraid that if you asked for more, you'd be asking for too much.",
+      "'You're never too much,' Alex says fiercely. 'You're the reason I'm doing any of this. What's the point of a corner office if I lose you in the process?'",
+      "It's not a magic fix. You both know that. But it's a start. A real start.",
+      "The next day, Alex goes to HR about the photo. Security gets involved. Turns out it was a coworker named Marcus - someone gunning for the same promotion, trying to create drama that would make both Alex and Jordan look unprofessional. He gets fired. Jordan gets the promotion. Alex doesn't, but they're okay with it.",
+      "'I don't think I want to be the person who sacrifices everything for a job,' Alex says that evening. 'I want work-life balance. I want date nights. I want us.'"
+    ],
+    "options": [
+      {
+        "text": "The next morning...",
+        "arc": "patient-talk-new-normal"
+      }
+    ]
+  },
+  "patient-talk-new-normal": {
+    "title": "New Boundaries",
+    "story": [
+      "Alex sets better work boundaries. Home by 7 PM unless there's a genuine emergency. No work talk after 8 PM. No checking emails in bed. Friday nights are sacred - date night, no exceptions.",
+      "You both commit to weekly check-ins about your relationship. Sunday morning coffee, just the two of you, talking about what worked this week and what didn't. It feels awkward at first, formal almost. But it becomes a ritual you look forward to.",
+      "It's not always perfect. There are still hard days. Alex still gets stressed about work. You still have moments of insecurity. But you have tools now. Communication. Trust. The willingness to be uncomfortable for a little while so you can be comfortable for a long while.",
+      "You chose communication over suspicion, patience over reaction. And that choice saves you."
+    ],
+    "options": [
+      {
+        "text": "One year later...",
+        "arc": "patient-talk-ending"
+      }
+    ]
+  },
+  "patient-talk-ending": {
+    "title": "Anniversary",
+    "story": [
+      "One year after moving to New York, Alex takes you back to your apartment building. But you don't go inside. Instead, Alex leads you to the rooftop - a space you didn't even know existed.",
+      "There are string lights. Candles in lanterns. A picnic setup with all your favorite foods. The skyline glitters in the background, but Alex only has eyes for you.",
+      "'A year ago, we moved to this city thinking it would make us. And it almost broke us instead. But we chose each other. Again and again. Through anonymous photos and long work hours and moments when it would have been easier to walk away.'",
+      "Alex drops to one knee. 'I want to keep choosing you. Every single day. In this city or any other. Will you marry me?'",
+      "The answer is easy. The answer has always been easy. It's the work of staying together that's hard. But you're willing to do the work. Both of you are."
+    ],
+    "options": [
+      {
+        "text": "Say yes. You've earned this happy ending together.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "space": {
+    "title": "Alone in the City",
+    "story": [
+      "You grab a bag - clothes, toiletries, phone charger. The essentials. You move through the apartment like a ghost, trying not to think, trying not to feel. Just pack. Just leave. Just get space.",
+      "You leave a note on the kitchen counter: 'Need some space to think. Don't worry about me.' You stare at the words. They feel inadequate. But you don't know what else to say. You don't know what you're feeling beyond the need to be anywhere but here.",
+      "The hotel room is sterile and cold. Generic art on the walls. A bed that's too firm. The kind of space that's designed to be temporary, to be forgotten. You stare at the ceiling, playing out worst-case scenarios in your head. Alex and Jordan kissing. Alex choosing their career over you. Alex laughing when you're not around.",
+      "The sun rises. You haven't slept."
+    ],
+    "options": [
+      {
+        "text": "Day two...",
+        "arc": "space-day-two"
+      }
+    ]
+  },
+  "space-day-two": {
+    "title": "The Silence",
+    "story": [
+      "Your phone explodes with messages through the night. Alex is panicking. 'Where are you?' 'Please talk to me.' 'I'm scared.' 'Did I do something wrong?' 'I'm sorry for whatever I did.' 'Please just tell me you're safe.'",
+      "You don't respond. You need this silence to figure out what you actually feel. But the silence isn't clarifying - it's suffocating. You order room service you don't eat. You flip through TV channels without watching. You exist in limbo.",
+      "What are you doing? The question circles your mind. Are you protecting yourself or punishing Alex? Are you thinking or running away from thinking? Are you strong for setting boundaries or weak for not being able to communicate?",
+      "On day two, you go to work because you don't know what else to do. You're going through the motions, answering emails, attending a meeting you won't remember. Around 2 PM, the receptionist calls your desk. 'Someone's here to see you.'",
+      "It's Alex. In your office lobby. They look terrible - same clothes as two days ago, wrinkled now. Dark circles under their eyes. Hair unwashed. They've been up all night. Probably both nights.",
+      "'I know you needed space,' Alex says, voice raw. 'But I can't do this. I can't not know if you're okay, if we're okay, if there's even a we anymore. Please, just tell me what's wrong. We can fix it. We can fix anything, just please talk to me.'"
+    ],
+    "options": [
+      {
+        "text": "Show them the photo. Finally explain.",
+        "arc": "space-explanation"
+      }
+    ]
+  },
+  "space-explanation": {
+    "title": "The Truth",
+    "story": [
+      "You pull out your phone with shaking hands and show them the photo. 'This is what happened. Friday night. I got this from an unknown number. And I got scared. And I didn't know how to tell you I've been feeling distant from you for weeks. So I ran.'",
+      "Alex's face goes through a transformation. Confusion. Then anger - not at you, but at whoever sent the photo. Then devastation. 'That's what this is about? That was a work meeting with Jordan. We were at the bar because it was close to the office and we were both starving. There's nothing between us. There never has been.'",
+      "'I believe you,' you say, and you realize you do. 'But I've been lonely. I've been feeling like I'm second place to your job, to Jordan, to everything else in your new life here. The photo was just the final straw.'",
+      "Alex reaches for your hand, then stops, unsure if touch is welcome. 'Why didn't you tell me? Why did you just leave?'",
+      "'Because I didn't know how. Because I was scared. Because...' You trail off. The truth is ugly. You ran instead of communicating. You punished Alex instead of trusting them. You created this crisis as much as they did through neglect.",
+      "The damage might already be done. Walking out without communication created a crack in your foundation. The question hanging between you now is simple and terrifying: can it be repaired?"
+    ],
+    "options": [
+      {
+        "text": "Believe Alex. Apologize for running away. Promise to communicate better moving forward.",
+        "arc": "reconciliation"
+      },
+      {
+        "text": "The trust is broken. Not because of Jordan, but because you realized you don't feel secure in this relationship.",
+        "arc": "amicable-ending"
+      }
+    ]
+  },
+  "reconciliation": {
+    "title": "Finding Each Other Again",
+    "story": [
+      "You break down in Alex's arms right there in the office lobby. 'I'm sorry. I got scared and instead of talking to you, I ran. That was wrong.' Your voice cracks. You're crying and you don't care who sees.",
+      "Alex holds you tight. 'We both messed up. I've been so focused on work that I made you feel invisible. That's on me. I should have noticed. I should have checked in. I should have prioritized us.' Their voice is thick with emotion too.",
+      "Someone from your office walks by, glances at you both, keeps walking. You're making a scene. But maybe some things are worth making a scene for.",
+      "'Can we fix this?' you ask into Alex's shoulder.",
+      "'I want to try. Do you?'",
+      "'Yes.' The word comes out fierce, certain. 'Yes.'"
+    ],
+    "options": [
+      {
+        "text": "The first therapy session...",
+        "arc": "reconciliation-therapy-one"
+      }
+    ]
+  },
+  "reconciliation-therapy-one": {
+    "title": "Uncomfortable Truths",
+    "story": [
+      "The therapist's office is in Brooklyn, up three flights of stairs, with plants in every corner and art that's supposed to be calming. You sit on opposite ends of the couch. Not quite together, not quite apart.",
+      "Dr. Martinez is in her fifties, with kind eyes and a direct manner. 'So. Tell me why you're here.'",
+      "You both start talking at once. Stop. Look at each other. Alex gestures: you go first.",
+      "'I ran away instead of communicating. I let fear control me. I broke trust by leaving without explanation.'",
+      "Alex goes next. 'I neglected our relationship for my career. I didn't notice my partner was struggling. I let someone else become a constant presence in our life without setting appropriate boundaries.'",
+      "Dr. Martinez nods. 'Good. You both have awareness of your contributions to this crisis. That's a strong starting point. Now the hard part: changing the patterns that got you here.'",
+      "The session is uncomfortable. You talk about attachment styles and communication patterns and the ways you've both been avoiding difficult conversations. It's not romantic. It's not easy. But it's necessary."
+    ],
+    "options": [
+      {
+        "text": "Three months later...",
+        "arc": "reconciliation-progress"
+      }
+    ]
+  },
+  "reconciliation-progress": {
+    "title": "Two Steps Forward, One Step Back",
+    "story": [
+      "Three months into therapy, things are better. Not perfect, but better. Alex switched to a different team - Jordan is still at the company, but they're not working together anymore. It was awkward, but it was necessary.",
+      "You're learning to speak up about your needs. 'I'm feeling disconnected tonight. Can we put our phones away and just talk?' It feels vulnerable every time, but it gets easier.",
+      "Alex is learning to notice. To check in. To say 'I love you' not just when it's easy, but especially when it's hard. To choose you actively instead of passively assuming you'll always be there.",
+      "But there are setbacks. One night, Alex comes home late without texting. You spiral immediately - all the old fears flooding back. When Alex finally walks in, you're cold, defensive. 'I had dinner with my parents,' Alex explains, confused. 'I told you this morning.' You'd forgotten. The fear had erased the memory.",
+      "You have a fight. Not a productive one. Old patterns creeping back in. But the next morning, you both apologize. You talk it through. You don't let it fester. That's growth too - not avoiding the fights, but repairing after them."
+    ],
+    "options": [
+      {
+        "text": "One year later...",
+        "arc": "reconciliation-milestone"
+      }
+    ]
+  },
+  "reconciliation-milestone": {
+    "title": "Choosing Again",
+    "story": [
+      "One year after the hotel incident, you're stronger. Not invincible, but stronger. There are still hard days. Still moments of insecurity, still moments of miscommunication. But you have tools now. Therapy gave you a language for your feelings, strategies for conflict, ways to repair when things break.",
+      "Saturday mornings are yours again. Breakfast in bed. Coffee that Alex makes exactly how you like it. Inside jokes that make strangers on the subway smile. You remember why you fell in love - and you're falling in love again, deeper this time, with full knowledge of each other's flaws and the active choice to love anyway.",
+      "Dr. Martinez says you're ready to go from weekly sessions to monthly. 'You're doing the work,' she says. 'Both of you. That's what matters.'",
+      "On the one-year anniversary of your first therapy session, Alex takes you to the Brooklyn Bridge at sunset. The same place you once walked, oblivious to how close you were to losing each other."
+    ],
+    "options": [
+      {
+        "text": "Two years later...",
+        "arc": "reconciliation-wedding"
+      }
+    ]
+  },
+  "reconciliation-wedding": {
+    "title": "The Vows",
+    "story": [
+      "Two years after almost losing each other, you're getting married. It's a small ceremony - forty people in a garden in Queens. No fancy venue. No pretense. Just the people who matter and the vows that matter more.",
+      "Alex's vows: 'I promise to notice. To check in. To choose you actively every single day. I promise to remember that my career is what I do, but you are who I am. I promise to never take you for granted again. I promise to do the work, especially when it's hard. Especially when it's hard.'",
+      "Your vows: 'I promise to speak up. To tell you when I'm scared or lonely or need more. I promise to trust you, and when trust is hard, to talk about why instead of running. I promise to fight for us, not against you. I promise to remember that we're on the same team. Always.'",
+      "You exchange rings. You kiss. Everyone cheers. It's not a fairy tale ending because fairy tales don't require therapy and hard conversations and the daily choice to stay. It's better than a fairy tale. It's real.",
+      "Especially when it's hard."
+    ],
+    "options": [
+      {
+        "text": "Exchange vows and build a beautiful life together. Love wins.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "amicable-ending": {
+    "title": "Different Paths",
+    "story": [
+      "You take Alex's hand gently. 'I believe you about Jordan. I do. But this whole situation made me realize something - I don't think I'm cut out for this life. The late nights, the corporate pressure, being second place to a career. It's not your fault. It's just not what I want.'",
+      "Alex's eyes fill with tears but they nod slowly. 'I love my work. I don't want to resent you for making me choose between you and my ambitions. And you shouldn't have to feel lonely just to be with me.'",
+      "The breakup is gentle. Sad. You help each other pack. You cry together one last time. Alex keeps the apartment; you move back to your hometown to be near family. There's no villain in this story, just two people who wanted different things.",
+      "A year later, Alex sends you a wedding invitation. They're marrying someone they met at work - someone who understands that world. You're genuinely happy for them.",
+      "And you? You've started writing that novel you always talked about. You're dating someone who's a teacher, who's home by four every day, who makes dinner with you and watches terrible reality TV on the couch.",
+      "Sometimes love means knowing when to let go. You both found happiness, just not with each other."
+    ],
+    "options": [
+      {
+        "text": "Close this chapter and start the next one. Some endings are necessary.",
+        "arc": "bittersweet-ending"
+      }
+    ]
+  },
+  "paris": {
+    "title": "City of Light, City of Shadows",
+    "story": [
+      "The flight to Paris feels like a dream. Alex holds your hand during takeoff, both of you giddy with exhaustion and possibility. 'We're really doing this,' you whisper. 'We're really doing this,' Alex echoes back, squeezing your fingers.",
+      "Your apartment is in the 11th arrondissement, up four flights of narrow stairs that make moving furniture a nightmare. But when you open the shutters and see the view - slate rooftops stretching toward Sacré-Cœur, the evening light painting everything gold - the stairs don't matter. Nothing matters except this moment, this city, this choice you made together.",
+      "Alex starts work on Monday. You have a month to settle in before your remote contract begins. A month to figure out how to be a Parisian."
+    ],
+    "options": [
+      {
+        "text": "This is going to be amazing.",
+        "arc": "paris-settling"
+      }
+    ]
+  },
+  "paris-settling": {
+    "title": "Learning to Be Lost",
+    "story": [
+      "The first week, everything is an adventure. Getting lost is charming when you stumble upon a perfect bookshop. The language barrier is funny when you accidentally order three coffees instead of one. You wander the Marais, visit museums, sit in Luxembourg Gardens reading books you bought from bouquiniste stalls along the Seine.",
+      "But you're also achingly alone. Alex leaves early for work, comes home speaking rapid French about colleagues and projects you don't understand. They're immersed in a whole world you're locked out of. Not because they mean to exclude you, but because you can't access it yet. Your French is limited to 'bonjour' and 'un café, s'il vous plaît.'",
+      "You try. You download Duolingo. You smile at the neighbors in the stairwell. You learn which boulangerie has the best croissants, which Metro line gets you to the grocery store. Small victories that feel both significant and pathetically small.",
+      "Alex is flourishing. They come home energized, telling you about the office near République, the amazing coffee machine, how nice everyone is. Especially Riley, who's already taken them under their wing. 'Riley's been here three years,' Alex says over dinner. 'They know all the best places. They're going to show us around this weekend.'",
+      "Us. But Riley knew Alex first. Riley knew Alex when. And you're the newcomer in more ways than one."
+    ],
+    "options": [
+      {
+        "text": "Time passes...",
+        "arc": "paris-month-one"
+      }
+    ]
+  },
+  "paris-month-one": {
+    "title": "Finding Your Place",
+    "story": [
+      "One month in, Riley invites you both to dinner. Their apartment is in the Marais, perfectly decorated, with a view that makes your place look like a closet. Riley greets you with la bise - the cheek kisses that still make you nervous - and welcomes you in flawless English and equally flawless French.",
+      "Over wine and cheese, Riley tells stories about Alex from college. 'Remember when you tried to dye your hair blue and it turned green?' 'Oh my god, that terrible band you were in!' Alex laughs in a way you haven't heard in weeks. Free. Unselfconscious. Young.",
+      "You smile and nod, nursing your wine, acutely aware that you have no stories to trade. You met Alex after college, after the experimental hair dye and terrible bands. You're the epilogue, not the origin story.",
+      "Riley is charming. Too charming. They ask about your work, your interests, seem genuinely curious about your life. But you notice other things too. The way they touch Alex's arm when they laugh. The inside jokes that leave you on the outside. The way Alex lights up in Riley's presence, like they've come home to a version of themselves they'd forgotten existed.",
+      "When you leave that night, Alex is buzzing. 'Riley's amazing, right? I'm so glad you got to meet them properly.' You agree because what else can you say? But doubt has planted itself in your chest, and Paris suddenly feels less romantic and more complicated."
+    ],
+    "options": [
+      {
+        "text": "Dive into French culture independently. Build your own Paris separate from Alex's.",
+        "arc": "paris-independent"
+      },
+      {
+        "text": "Rely on Alex more. Let them be your guide into this new life.",
+        "arc": "paris-dependent"
+      },
+      {
+        "text": "Find expat community. Make friends who understand what it's like to be foreign here.",
+        "arc": "paris-expat"
+      }
+    ]
+  },
+  "paris-independent": {
+    "title": "Your Own Adventure",
+    "story": [
+      "You throw yourself into becoming Parisian. Intensive French classes four times a week. You join a cooking class, a book club, start volunteering at an English-language library. You're determined not to be the trailing spouse, the one who just tagged along.",
+      "It's hard. Your French improves slowly. You make friends but they're surface-level, the kind where you go to events together but don't share your real feelings. You're building a life, but it's exhausting, and some nights you come home to find Alex already asleep, and you're two people living parallel lives in the same tiny apartment.",
+      "Riley's name comes up often. 'Riley suggested this café.' 'Riley's having a gallery opening.' 'Riley thinks I should apply for that promotion.' You're too busy with your own projects to worry much about it. You're too tired to ask questions. You're too proud to admit you might be lonely even while surrounded by new friends.",
+      "You're independent. You're adapting. You're proving you can thrive anywhere. But there's a cost you're not quite ready to calculate."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "paris-riley-intro"
+      }
+    ]
+  },
+  "paris-dependent": {
+    "title": "The Learning Curve",
+    "story": [
+      "You lean on Alex. They become your translator, your guide, your interpreter of French culture. When Riley invites you both to things, you always go. When Alex's colleagues have gatherings, you're there, smiling and nodding through conversations you only half understand.",
+      "Alex is patient, mostly. They explain jokes. They order for you at restaurants. They handle the difficult phone calls with the landlord and the internet company. You're grateful, but you're also increasingly aware of the power imbalance. They're capable. You're dependent.",
+      "Riley is often around. Sometimes it feels like Riley is always around. They're kind to you, inclusive, but you can't shake the feeling that you're the third wheel in someone else's friendship. Riley and Alex speak in rapid French sometimes, forgetting to translate. Riley and Alex have inside jokes from college. Riley and Alex have history.",
+      "You have now. But now feels precarious when it's competing with then.",
+      "Your own career suffers. Working remotely is harder than you expected. The time zone difference makes meetings awkward. Your French isn't good enough to handle client calls. You're falling behind while Alex soars ahead, and the gap between you widens every day."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "paris-riley-intro"
+      }
+    ]
+  },
+  "paris-expat": {
+    "title": "Among Strangers",
+    "story": [
+      "You find your people at an expat meetup. Other Americans, Brits, Australians, all navigating the same challenges. The language barriers. The cultural confusion. The loneliness of being foreign. For the first time since arriving, you feel seen.",
+      "You make real friends. Sarah, who's been here six years and gives you all her tips. Marcus, who's on his third attempt at learning French and makes you feel better about your struggles. Isabel, who's dating a French person and understands the specific challenge of loving someone who belongs here while you don't.",
+      "It's comfortable. Maybe too comfortable. You start spending more time with expats than with Alex. It's easier to be with people who get it, who speak your language literally and figuratively. Alex notices. 'You're always out with your expat friends,' they say one night, not quite accusatory but not quite neutral either.",
+      "'You're always with Riley,' you want to say, but don't.",
+      "You're building a community, which is healthy. But you're also building walls, which might not be."
+    ],
+    "options": [
+      {
+        "text": "Continue.",
+        "arc": "paris-riley-intro"
+      }
+    ]
+  },
+  "paris-riley-intro": {
+    "title": "Four Months In",
+    "story": [
+      "Four months into your Paris life, things have settled into a rhythm. Not always a comfortable rhythm, but a rhythm nonetheless. You have your routines. Alex has theirs. You overlap when you can, exist separately when you can't.",
+      "Riley is a constant presence. Dinners. Gallery openings. Weekend trips to the countryside. You've tried everything: liking them, keeping distance, being neutral. None of it changes the fundamental tension you feel when Riley and Alex are together. The way they lean toward each other. The shared language of old friendship that you'll never speak fluently.",
+      "Then Alex comes home one evening with news. 'My company is doing a retreat in Lyon this weekend. Team building, strategy sessions, the usual corporate stuff.' They're folding laundry, not quite meeting your eyes. 'It's employees only, so...'",
+      "'So I can't come,' you finish. Alex nods, apologetic. 'I wish you could. It would be more fun with you there.'",
+      "That night, you're helping Alex pack when their phone buzzes. They glance at it and smile. 'Riley's excited about Lyon. We haven't done a trip together in ages.' Then Riley's text preview flashes on the screen: 'Can't wait for our weekend away! Just like old times 😊'",
+      "Just like old times. The words sit heavy in your chest. You know Riley and Alex were close as kids. You know Riley came out to Alex first. You know there was a drunken kiss at a college party that 'didn't mean anything.' You know all of this because Alex told you, back when you chose Paris together.",
+      "What you don't know is whether you're being paranoid or whether your gut is trying to warn you about something real."
+    ],
+    "options": [
+      {
+        "text": "Express your concerns to Alex calmly. Ask them to maintain boundaries with Riley this weekend.",
+        "arc": "boundaries"
+      },
+      {
+        "text": "Say nothing. You don't want to be the controlling, jealous partner. Trust is important.",
+        "arc": "silent-suffering"
+      },
+      {
+        "text": "Surprise Alex by showing up at the retreat. You'll frame it as a romantic gesture, but really you need to see what's happening.",
+        "arc": "surprise-visit"
+      }
+    ]
+  },
+  "boundaries": {
+    "title": "Difficult Conversations",
+    "story": [
+      "That night, after dinner, you pour two glasses of wine. Your hands are shaking slightly. This is vulnerability. This is risk. This is choosing to communicate instead of suffering in silence.",
+      "'I need to tell you something,' you start. Alex looks up from their phone, attentive. 'Riley's text made me uncomfortable. The 'just like old times' thing. I know you two have history, and I'm trying not to be jealous, but I need you to hear me when I say this is hard for me.'",
+      "Alex is quiet for a moment. You brace yourself for defensiveness. But instead, they reach for your hand. 'I hadn't thought about how that text might sound to you. You're right - that's not appropriate. Riley and I are friends, but you're my partner. You come first. Always.'",
+      "'I don't want to control who you're friends with,' you say carefully. 'But this weekend... can you promise me something?'",
+      "'Anything.'",
+      "'Clear boundaries. No one-on-one time with Riley. No late-night drinks, just the two of you. Nothing that would make me uncomfortable if I saw a photo of it.' You pause. 'Like I made you uncomfortable seeing photos of me and Jordan.'",
+      "Alex nods seriously. 'I promise. And thank you for telling me. This is exactly what we should be doing - talking instead of assuming.'"
+    ],
+    "options": [
+      {
+        "text": "The weekend begins...",
+        "arc": "boundaries-weekend"
+      }
+    ]
+  },
+  "boundaries-weekend": {
+    "title": "The Longest Weekend",
+    "story": [
+      "The weekend is hard. You're alone in Paris - a city that's romantic in theory but lonely in practice when you're by yourself. Your French still isn't good enough for real conversation. You try to enjoy the freedom, but mostly you just miss Alex.",
+      "Saturday morning, Alex texts a photo: the whole team at breakfast, Riley visible but not next to Alex. 'Day one of boring presentations. Missing you already.'",
+      "Saturday evening: 'Just finished dinner with the group. Heading to my room early. Call you in 10?'",
+      "They do call. You talk for an hour. About nothing important. About everything important. About how much you miss each other.",
+      "Sunday afternoon: 'One more session then I'm done. Can't wait to be home.'",
+      "You spend the weekend reading in cafés, walking along the Seine, trying not to check your phone every five minutes. But you do check it. And Alex is always there, checking in, sending photos, keeping you connected even when you're apart."
+    ],
+    "options": [
+      {
+        "text": "Sunday evening arrives...",
+        "arc": "boundaries-return"
+      }
+    ]
+  },
+  "boundaries-return": {
+    "title": "The Confession",
+    "story": [
+      "When Alex returns Sunday evening, something is off. They hug you tight - too tight - and there's tension in their shoulders. You know immediately that something happened.",
+      "'We need to talk,' Alex says, and your stomach drops. Those four words. Never good.",
+      "You sit on the couch. Alex sits across from you, not next to you. That's how you know it's serious.",
+      "'Riley made a move on me.' The words come out in a rush. 'Last night. We were with the group at the hotel bar. Everyone else left around eleven. Riley and I stayed to finish discussing the Q4 strategy - I know, I know, that was already pushing the boundaries you asked for. But it was work, and there were other people around, and then suddenly there weren't.'",
+      "Your heart is hammering. 'What happened?'",
+      "'Riley tried to kiss me. Just leaned in, sudden and unexpected. I pulled back immediately. I said, 'I'm committed to my partner. This is completely inappropriate. Our friendship needs to be strictly professional from now on.' Riley looked shocked, then embarrassed. They apologized, blamed the wine, said they misread signals.'",
+      "Alex finally looks at you directly. 'But I don't think they misread anything. I think they've been waiting for an opportunity. And I'm so sorry I didn't see it sooner. I'm requesting a transfer to a different supervisor. Riley and I can't have the relationship we used to have. Not when they don't respect my boundaries. Not when they don't respect us.'"
+    ],
+    "options": [
+      {
+        "text": "Take a moment to process...",
+        "arc": "boundaries-decision"
+      }
+    ]
+  },
+  "boundaries-decision": {
+    "title": "Choosing Trust",
+    "story": [
+      "You're quiet for a long moment. Processing. Alex stopped it. Alex told you immediately. Alex is requesting a transfer. Alex chose you.",
+      "'Are you angry?' Alex asks quietly. 'At me, I mean. For not seeing it coming. For staying at the bar after everyone left.'",
+      "'I'm angry at Riley,' you say slowly. 'For trying. For putting you in that position. For not respecting our relationship.' You pause. 'But you handled it exactly right. You set boundaries. You told me immediately. You're taking steps to make sure it doesn't happen again.'",
+      "Alex's eyes fill with tears. 'I was so scared you'd think I led them on. Or that you'd make me choose between you and my job here.'",
+      "'You already chose,' you say, taking their hand. 'And you chose me. That's what matters. Trust isn't about never being in difficult situations. It's about how you handle them when they happen. And you handled this perfectly.'",
+      "Relief washes over Alex's face. They pull you into an embrace. 'You are my priority. Always. I'll never put you in a position to doubt that again.'"
+    ],
+    "options": [
+      {
+        "text": "Thank Alex for being honest and setting boundaries. Trust is earned through actions like this.",
+        "arc": "trust-built"
+      },
+      {
+        "text": "You're furious. Not at Alex, but at Riley. Confront Riley yourself about trying to sabotage your relationship.",
+        "arc": "confront-riley"
+      }
+    ]
+  },
+  "trust-built": {
+    "title": "Love in Translation",
+    "story": [
+      "The Riley situation resolves itself. They transfer to the London office a few months later, whether from embarrassment or opportunity, you don't know. You don't care. What matters is that Alex chose you, clearly and without hesitation.",
+      "Alex's new supervisor is a woman named Claudette who's been with the company for fifteen years and has zero interest in drama. 'Work is work, home is home,' she says in her perfect French-accented English. 'Alex leaves at six. No exceptions.' You could kiss her."
+    ],
+    "options": [
+      {
+        "text": "Autumn arrives in Paris...",
+        "arc": "trust-built-seasons"
+      }
+    ]
+  },
+  "trust-built-seasons": {
+    "title": "Finding Your Paris",
+    "story": [
+      "Paris becomes yours together. Not the tourist Paris, but the real one. You find your favorite bakery - the one on Rue des Martyrs where the owner, Monsieur Bernard, saves you the best croissants. Your neighborhood wine shop where Sophie teaches you about Bordeaux versus Burgundy. The secret garden in the Marais that tourists never find.",
+      "Your French improves. You start freelancing from cafés, actually feeling like a character in your own story instead of a sidekick in someone else's. You make friends - other expats who get it, friendly locals who invite you to dinner parties, Alex's colleagues who are just colleagues, nothing more.",
+      "Friday nights become sacred. Alex comes home early. You cook together, attempting recipes from a cookbook Alex's mom sent. Some turn out great - the boeuf bourguignon that simmers all day. Others end in laughter and ordering pizza - the soufflé that deflated like your hopes and dreams.",
+      "You fall in love with Paris. More importantly, you fall in love with your life in Paris. Your life, not just Alex's."
+    ],
+    "options": [
+      {
+        "text": "Your second anniversary...",
+        "arc": "trust-built-proposal"
+      }
+    ]
+  },
+  "trust-built-proposal": {
+    "title": "The Jardines des Tuileries",
+    "story": [
+      "On your second anniversary of moving to Paris, Alex takes you to the Jardin des Tuileries at sunset. The light is golden, painting everything in that perfect Parisian glow. You're walking hand in hand, talking about maybe getting a cat, when Alex stops by the fountain.",
+      "'I need to tell you something,' they say, and your heart does that thing it does - half excitement, half fear.",
+      "Before you can spiral, Alex drops to one knee. 'Two years ago, I asked you to choose Paris with me. You said yes even though it was scary. Even though it meant leaving everything familiar behind. And when things got hard - when Riley happened, when I almost lost you - you communicated. You were honest. You trusted me when you had every reason not to.'",
+      "Alex pulls out a small velvet box. 'You chose Paris. You chose honesty. You chose us. Now I'm choosing you. Every day. For the rest of my life. Will you marry me?'",
+      "Through tears, you say yes. In the background, an accordion player - because of course there's an accordion player - starts playing 'La Vie en Rose.' It's cheesy and perfect and so incredibly Paris.",
+      "A group of tourists applauds. An old French woman winks at you. Alex slides the ring onto your finger and kisses you like you're in a movie. Like you're the only two people in the city.",
+      "And in this moment, you are."
+    ],
+    "options": [
+      {
+        "text": "Plan a wedding in a small château outside the city. Live happily ever after.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "confront-riley": {
+    "title": "The Confrontation",
+    "story": [
+      "You show up at Alex's office the next day and ask to speak with Riley privately. Alex tries to stop you - 'You don't have to do this' - but you need to say your piece.",
+      "In a conference room, you face Riley directly. 'I know what you tried to do. I know you think you and Alex have some deep connection that I can't understand. But here's what you need to understand: Alex chose me. Every day, they choose me. Your moment passed years ago, and trying to reclaim it now just makes you look desperate.'",
+      "Riley's face flushes. 'You don't understand our history—'",
+      "'I don't need to. History is the past. I'm their present and their future. Stay professional, stay in your lane, or I promise you'll regret it.'",
+      "You walk out before Riley can respond. Alex is waiting outside, eyes wide. 'That was... intense. Are you okay?'",
+      "'I'm great,' you say, and you mean it. Sometimes love means fighting for what's yours.",
+      "Riley stays away after that. Whether from respect or fear, you don't care. You've drawn your line in the sand, and Alex appreciates it more than they say. Your relationship deepens, forged stronger by the fire of adversity."
+    ],
+    "options": [
+      {
+        "text": "Continue building your Paris life together. You've won this battle, and it feels good.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "silent-suffering": {
+    "title": "The Weight of Silence",
+    "story": [
+      "You kiss Alex goodbye at the train station. 'Have fun,' you say, and it sounds normal. It sounds fine. It sounds like everything isn't slowly unraveling inside you.",
+      "'I'll miss you,' Alex says, squeezing your hand. 'It's just two days.'",
+      "'I know. It's fine. Go.' You smile. The smile feels like a mask.",
+      "You spend the weekend pretending everything is fine. But inside, you're imagining scenarios. Alex and Riley laughing over wine. Inside jokes you're not part of. Accidental touches that linger too long. That drunken kiss from college happening again, except this time they don't stop."
+    ],
+    "options": [
+      {
+        "text": "The weekend ends...",
+        "arc": "silent-suffering-return"
+      }
+    ]
+  },
+  "silent-suffering-return": {
+    "title": "The Poison",
+    "story": [
+      "Alex returns Sunday night, cheerful and oblivious. 'The retreat was so boring! I missed you every second.' They're affectionate, attentive, seemingly unchanged. They bring you a small gift - a book from a Lyon bookshop.",
+      "You want to believe everything is fine. You want to ask: 'What happened with Riley? Did they try anything? Did you feel tempted?' But you don't. You smile. You say thank you for the book. You let the moment pass.",
+      "But doubt is a poison that spreads slowly. It starts small. Checking where Alex is on Find My Friends. Noting when they come home late. Paying attention to how often Riley's name comes up in conversation.",
+      "Then it grows. You start checking Alex's phone when they're in the shower. Just a quick glance. Just to reassure yourself. Except it doesn't reassure you - it feeds the paranoia. Every text from Riley feels suspicious. Every 'lol' feels too familiar. Every 'miss you' feels too intimate, even when it's clearly about work.",
+      "You're becoming someone you don't recognize. Someone who snoops. Someone who catalogs evidence. Someone who's building a case instead of having a conversation."
+    ],
+    "options": [
+      {
+        "text": "Weeks turn into months...",
+        "arc": "silent-suffering-discovery"
+      }
+    ]
+  },
+  "silent-suffering-discovery": {
+    "title": "The Text Thread",
+    "story": [
+      "Three months after Lyon, you find it. Alex left their phone on the counter while taking out the trash. A message from Riley appears on the lock screen: 'I need to tell you something.'",
+      "You shouldn't look. You know you shouldn't look. But your hands are already opening the phone (you know the passcode, have always known the passcode, back when that was trust instead of surveillance).",
+      "The text thread loads. You scroll up. Your heart sinks with every line.",
+      "Riley, two weeks ago: 'I can't stop thinking about Lyon. About what almost happened.'",
+      "Alex: 'Nothing almost happened. You tried to kiss me. I stopped you. That's what happened.'",
+      "Riley: 'But you felt it too. The connection. The chemistry. Tell me you didn't feel it.'",
+      "Alex: 'You know I care about you too, but I'm with someone.'",
+      "Those words freeze you. 'I care about you too.' Not 'I love my partner' or 'I'm not interested' or 'there's no chemistry.' Just 'I'm with someone.' Like you're an obligation. Like you're the thing standing between Alex and what they really want.",
+      "You hear the door open. Alex is back from taking out the trash. You're standing there with their phone in your hand, the evidence of... what? Nothing physical. But an emotional intimacy that guts you just the same."
+    ],
+    "options": [
+      {
+        "text": "Confront Alex now. Show them the texts.",
+        "arc": "silent-suffering-confrontation"
+      }
+    ]
+  },
+  "silent-suffering-confrontation": {
+    "title": "The Breaking Point",
+    "story": [
+      "Alex sees the phone in your hand. Sees your face. Knows immediately. 'How long have you been going through my phone?'",
+      "'Does it matter?' you counter. 'You care about Riley too? That's how you shut down someone trying to break up our relationship?'",
+      "Alex's face flushes. 'That's not what that meant. You're taking it out of context.'",
+      "'Then give me context! What happened in Lyon? What almost happened?'",
+      "'Riley tried to kiss me. I stopped them. I told them it was inappropriate. That's it. That's the whole story.'",
+      "'And then you've been texting about your connection and chemistry ever since?' Your voice is rising. 'And you never thought to tell me? You never thought to set boundaries? You just kept this whole emotional affair going while I—'",
+      "'It's not an affair!' Alex shouts. 'Nothing happened! Riley is my friend. I can't help how they feel about me.'",
+      "'But you can help how you respond! You could have said you love me. You could have said you're not interested. Instead you said you're 'with someone' like I'm an inconvenient obstacle!'",
+      "The silence that follows is deafening. You can see Alex processing, realizing how it sounds. 'You're right,' they say quietly. 'That was wrong. I should have been clearer with Riley. I should have told you.'",
+      "'Why didn't you?'",
+      "'Because...' Alex trails off. 'Because you never asked. Because you seemed fine. Because I told myself it wasn't a big deal if nothing physical happened.'",
+      "'I never asked because I was trying not to be the jealous, controlling partner. I suffered in silence until the silence broke us both.'"
+    ],
+    "options": [
+      {
+        "text": "Fight for the relationship. Demand couples therapy and complete transparency moving forward.",
+        "arc": "therapy-ending"
+      },
+      {
+        "text": "You're exhausted. The relationship feels like a job you're failing at. End it before it destroys you completely.",
+        "arc": "tragic-ending"
+      }
+    ]
+  },
+  "surprise-visit": {
+    "title": "Unannounced Arrival",
+    "story": [
+      "Saturday morning. You're alone in the apartment, staring at Riley's text on Alex's behalf. 'Just like old times.' The words eat at you. You try to read. Try to work. Try to do anything other than imagine what's happening in Lyon.",
+      "By noon, you've made a decision. You book a last-minute train ticket. Two hours to Lyon. You'll surprise Alex. It'll be romantic. Spontaneous. You're not checking up on them - you're just missing them. That's what you tell yourself.",
+      "On the train, you text: 'Surprise! Couldn't stand being away from you. What hotel are you at? 😊'",
+      "Three dots appear. Disappear. Appear again. You watch them, your heart racing. Finally, a message: 'Babe, this is such a sweet thought, but it's a work thing. I don't think you can just show up.'",
+      "Something hardens in your chest. 'Too late! Already on my way. Can't wait to see you!' You add a heart emoji to keep it light, but there's something sharp underneath. Something that says: I don't need your permission."
+    ],
+    "options": [
+      {
+        "text": "The train arrives in Lyon...",
+        "arc": "surprise-visit-arrival"
+      }
+    ]
+  },
+  "surprise-visit-arrival": {
+    "title": "Cold Welcome",
+    "story": [
+      "When you arrive at the hotel lobby, Alex is waiting. But not the way partners wait for each other. There's no smile. No excited hug. Just Alex standing there with crossed arms and tense shoulders.",
+      "'This is... unexpected,' Alex says. The greeting is off. Formal. Cold.",
+      "'Surprise,' you say weakly. The word falls flat.",
+      "Riley appears from the hotel bar, drink in hand, eyebrows raised. 'Well, this is awkward.' They don't even try to hide their amusement. Or is it satisfaction? You can't tell.",
+      "Alex pulls you aside, away from Riley, into a quiet corner of the lobby. 'What are you doing here?' Their voice is low, controlled. Angry. 'You can't just crash a work retreat.'",
+      "'I missed you,' you say. It sounds defensive even to your own ears.",
+      "'You checked up on me. That's what this is. You didn't trust me to spend a weekend with colleagues, so you decided to show up unannounced and...' Alex gestures helplessly. 'What exactly did you think you'd find?'",
+      "The words are harsh but not untrue. You've shown up unannounced because you don't trust your partner. And now you're standing in a hotel lobby in Lyon, and everyone can see exactly what kind of person you are. Jealous. Controlling. Insecure."
+    ],
+    "options": [
+      {
+        "text": "The weekend continues...",
+        "arc": "surprise-visit-disaster"
+      }
+    ]
+  },
+  "surprise-visit-disaster": {
+    "title": "The Longest Weekend",
+    "story": [
+      "The weekend is a disaster. Alex gets you a separate room. 'I can't have you in mine during a work event. It's unprofessional.' You spend Saturday alone while Alex attends sessions. You order room service you don't eat. You watch French TV you don't understand.",
+      "Saturday night, Alex agrees to have dinner with you. Just the two of you. But the conversation is stilted. Every topic feels like a minefield. You can't ask about Riley without sounding jealous. You can't talk about why you came without admitting you don't trust them. You can't apologize without admitting you were wrong.",
+      "Alex is distant. Professional. Like you're a difficult client they have to manage rather than the person they're building a life with.",
+      "Sunday morning, you see Alex at breakfast with the team. Riley is there, sitting next to Alex, laughing at something on Riley's phone. Alex looks relaxed. Happy. More at ease with Riley than they've been with you all weekend.",
+      "You've revealed your hand. You're the jealous partner who crashed a work event. The person who can't give their partner space. The person who needs constant reassurance. Alex sees you differently now. You see yourself differently now. And you don't like what you see."
+    ],
+    "options": [
+      {
+        "text": "Apologize. Admit you let jealousy cloud your judgment. Ask for a chance to rebuild trust.",
+        "arc": "apologize-rebuild"
+      },
+      {
+        "text": "Double down. If Alex has nothing to hide, why are they so angry about you being here?",
+        "arc": "double-down"
+      }
+    ]
+  },
+  "apologize-rebuild": {
+    "title": "Humble Pie in Lyon",
+    "story": [
+      "That night, you sit on the hotel bed and say the hardest words: 'I'm sorry. I was wrong. I let my insecurity turn me into someone I don't want to be. You didn't deserve this ambush. I should have talked to you instead of showing up like some kind of jealous detective.'",
+      "Alex's expression softens. 'I appreciate that. But we need to talk about why you felt this was necessary. Are you not happy in Paris? Do you not trust me?'",
+      "You talk until 2 AM. The truth comes out: you've been lonely. Your career is on hold while Alex's flourishes. You've been feeling like a sidekick in someone else's story. Riley was just a symptom of a deeper problem.",
+      "Alex holds you. 'Why didn't you tell me? We're supposed to be a team.' 'Because I didn't want to ruin Paris for you,' you admit. 'Because I thought I should be stronger.'",
+      "The next morning, Alex skips the retreat sessions. You spend the day exploring Lyon together, having the conversations you should have had months ago. Riley texts asking where Alex is. Alex turns off their phone. 'They can wait. You can't.'",
+      "You return to Paris different. Alex helps you find a job in your field. You make friends outside of Alex's circle. You start couples therapy to work on communication. It's not perfect, but it's real. And real is better than perfect any day."
+    ],
+    "options": [
+      {
+        "text": "Commit to the work of maintaining a healthy relationship. It's worth it.",
+        "arc": "happy-ending"
+      }
+    ]
+  },
+  "double-down": {
+    "title": "The Point of No Return",
+    "story": [
+      "Instead of apologizing, something hardens in you. Pride. Self-righteousness. The certainty that you're right and Alex is wrong. 'If you have nothing to hide, why are you acting like I committed some crime by wanting to see my partner?'",
+      "Your voice is loud. Too loud. People in neighboring rooms can definitely hear. You don't care.",
+      "Alex's face transforms. The concern from earlier is gone, replaced by something cold. 'Because you don't trust me. Because you're checking up on me like I'm a child who can't be left alone for a weekend. This isn't love - this is control.'",
+      "'Maybe I wouldn't need to control things if you didn't have an emotional affair partner as your supervisor!'",
+      "The words hang in the air like a slap. You see the exact moment something breaks in Alex's eyes. Not breaks like shattering - breaks like giving up.",
+      "Alex grabs their jacket. 'I'm staying in Riley's room tonight. We'll talk when you're rational.' They walk to the door.",
+      "'Running to Riley? Proving my point?'",
+      "Alex turns back. 'I'm staying in their room because they have a couch and I can't be near you right now without saying something I'll regret. But you know what? Think whatever you want. You've already made up your mind about who I am.'"
+    ],
+    "options": [
+      {
+        "text": "Alex leaves...",
+        "arc": "double-down-aftermath"
+      }
+    ]
+  },
+  "double-down-aftermath": {
+    "title": "The Spiral",
+    "story": [
+      "The door closes. You're alone in the hotel room with your anger and your self-righteousness and nothing else. You tell yourself you're right. You tell yourself Alex is gaslighting you. You tell yourself Riley orchestrated this whole thing.",
+      "You don't sleep. You pace. You imagine Alex and Riley together. You build elaborate scenarios in your head. By morning, you've convinced yourself the relationship is over and it's all their fault.",
+      "Sunday, Alex texts: 'I'm staying for the last retreat session. Take the train back without me. We'll talk when I get home Monday.'",
+      "You don't go home. You go to a friend's place in Paris. You vent. They listen, then gently ask: 'But why did you show up without asking?' You don't want to hear it. You leave.",
+      "By Monday, you've made your decision. You find a new apartment. You move half your stuff out before Alex gets home. When Alex walks in to see you packing, their face crumbles.",
+      "'This is it?' Alex asks quietly. 'You're just leaving?'",
+      "'You chose Riley.'",
+      "'I chose a couch for one night because you accused me of having an affair and wouldn't listen to reason!'",
+      "'I saw how you looked with them at breakfast!'",
+      "'Happy? I looked happy? Maybe because I was having one good moment in a nightmare weekend where my partner crashed my work event, accused me of cheating, and refused to apologize for any of it!'"
+    ],
+    "options": [
+      {
+        "text": "The fight escalates...",
+        "arc": "double-down-breakup"
+      }
+    ]
+  },
+  "double-down-breakup": {
+    "title": "What We Destroyed",
+    "story": [
+      "The fight is ugly. Voices raised. Accusations flying. You blame Riley. Alex blames your jealousy. You're both saying things designed to hurt, and succeeding.",
+      "'You never trusted me!' Alex shouts.",
+      "'You never gave me reason to!' you shout back.",
+      "'I came home every night! I answered every call! I was working, building a life for us!'",
+      "'For you! You were building a life for you! I was just the person waiting at home!'",
+      "The truth hangs there. Maybe you're both right. Maybe you're both wrong. Maybe it doesn't matter anymore because the damage is done.",
+      "You finish packing. Alex doesn't stop you. You walk out of the apartment you shared, out of the life you built, out of the love you almost had.",
+      "The breakup paperwork is handled through lawyers. You don't see each other again except once, briefly, to divide up the furniture. It's civil. Cold. Like you're strangers who once knew each other's names."
+    ],
+    "options": [
+      {
+        "text": "One year later...",
+        "arc": "double-down-aftermath-year"
+      }
+    ]
+  },
+  "double-down-aftermath-year": {
+    "title": "The Aftermath",
+    "story": [
+      "A year later, you see it on social media. Alex and Riley are together. They're at some company event, Alex's arm around Riley's waist, both of them smiling. The caption: 'One year with this amazing human.'",
+      "It hurts. Of course it hurts. But what hurts more is knowing you pushed them together. By showing up in Lyon. By refusing to apologize. By treating Alex like they were guilty before they'd done anything wrong.",
+      "Riley probably did warn Alex about you. Probably said you were controlling, insecure, unable to let Alex breathe. And then you proved Riley right. You became exactly the person they warned Alex about.",
+      "Sometimes the monster we fear becomes real because we treated our partner like they were already one. Sometimes we create the very reality we're trying to avoid.",
+      "You're dating someone new now. Someone patient. Someone who doesn't trigger your jealousy. But sometimes, late at night, you think about that hotel in Lyon. About the choice you made to double down instead of apologize. About how different things might be if you'd chosen differently.",
+      "You'll never know. That timeline is closed to you now."
+    ],
+    "options": [
+      {
+        "text": "Move on. Learn from this. Become someone better in your next relationship.",
+        "arc": "tragic-ending"
+      }
+    ]
+  },
+  "happy-ending": {
+    "title": "Ever After",
+    "story": [
+      "Love isn't a fairy tale. It's a choice you make every day. It's communicating when it's hard, trusting when it's scary, and fighting for each other instead of against each other.",
+      "You and Alex learned that the hard way. There were moments when you almost lost everything. Moments when jealousy, fear, and pride nearly destroyed what you'd built. But you chose each other. Again and again and again.",
+      "Years later, you're hosting dinner at your place. Friends fill your home with laughter and wine and terrible karaoke. Someone asks, 'What's your secret? How do you make it look so easy?'",
+      "You and Alex exchange a glance - a whole conversation in a single look. 'It's not easy,' Alex says. 'It never has been.'",
+      "'But it's worth it,' you add, taking Alex's hand. 'Every hard conversation, every moment of doubt, every choice to stay and work through it. Worth it.'",
+      "Someone proposes a toast. 'To love that isn't perfect but is perfectly yours.'",
+      "You raise your glass, kiss your partner, and know in your bones that you're exactly where you're supposed to be.",
+      "THE END"
+    ],
+    "options": []
+  },
+  "tragic-ending": {
+    "title": "What We Lost",
+    "story": [
+      "Some love stories don't have happy endings. Some relationships fail not because of any single betrayal, but because of a thousand small cuts. A thousand moments of choosing pride over vulnerability, fear over trust, silence over truth.",
+      "You and Alex became cautionary tale instead of a love story. You loved each other - that was never in question. But love alone isn't enough. You needed communication, trust, and the courage to be honest even when it was terrifying.",
+      "The breakup devastates you both. There's no clean break, no easy villain to blame. Just two people who wanted different things or couldn't navigate wanting the same things together.",
+      "Months pass. Then years. You both move on, build new lives, maybe find new love. But sometimes, late at night, you think about what could have been. The alternate universe where you made different choices. Where you spoke up. Where you trusted. Where you fought for each other instead of against each other.",
+      "You see Alex once, years later, on a street corner in a city neither of you planned to be in. You lock eyes. You both smile, sad and knowing. A whole conversation passes without words: I'm sorry. Me too. I hope you're happy. You too.",
+      "Then you walk away, carrying the ghost of what you were with you forever. Some loves shape us. Some loves break us. Yours did both.",
+      "THE END"
+    ],
+    "options": []
+  },
+  "therapy-ending": {
+    "title": "The Work",
+    "story": [
+      "Couples therapy is not romantic. It's messy and uncomfortable and sometimes you leave sessions feeling worse than when you arrived. A professional stranger asks you to excavate your deepest fears and resentments while your partner sits three feet away, doing the same.",
+      "Some sessions, you make breakthroughs. You understand why you react the way you do, why Alex shuts down during conflict, why communication feels impossible sometimes. You learn tools: active listening, 'I' statements, how to fight fair.",
+      "Other sessions, you wonder why you're bothering. The problems feel insurmountable. You're too different, too damaged, too far gone. You watch other couples break up in the waiting room and wonder if you're next.",
+      "But you keep showing up. Week after week, month after month. Slowly, things shift. Not perfectly. Not magically. But shift nonetheless. You learn Alex's triggers. Alex learns yours. You develop a shared language for navigating rough waters.",
+      "Three years later, you're still together. Still in therapy, actually - now it's monthly maintenance instead of weekly crisis management. Your relationship isn't perfect. You still fight sometimes. But you fight better. You repair faster. You know how to come back to each other.",
+      "Someone asks if therapy 'fixed' you. You laugh. 'We didn't need fixing. We needed tools. And time. And the willingness to be uncomfortable long enough to grow.'",
+      "It's not the ending you imagined, but it's the ending you earned. And that means something.",
+      "THE END"
+    ],
+    "options": []
+  },
+  "bittersweet-ending": {
+    "title": "Different Kinds of Love",
+    "story": [
+      "You remain friends with Alex. Not immediately - there's too much heartbreak for that. But eventually, after time and distance and new relationships heal the raw edges, you find your way back to each other as friends.",
+      "It's strange at first. Loving someone but not being in love with them. Caring about their happiness even though it doesn't include you. But it's also freeing. You can appreciate Alex without the pressure of romance. You can support their dreams without sacrificing your own.",
+      "You attend Alex's wedding. They attend yours years later. Your partners know the history and aren't threatened by it. That's how you know you've found the right people - they understand that your past with Alex shaped you into who you are now.",
+      "Sometimes you wonder about the alternate timeline where it worked out. Where you both bent enough to stay together without breaking. But mostly, you're grateful. Grateful for what you had. Grateful for what you learned. Grateful that love can evolve into something new instead of curdling into bitterness.",
+      "On a random Tuesday, Alex texts you a meme that makes you laugh until you cry. You send back a gif. No heavy conversation, no rehashing the past. Just two people who once loved each other romantically and now love each other differently.",
+      "It's not the ending you wanted, but it's an ending you can live with. And sometimes, that's the best we can hope for.",
+      "THE END"
+    ],
+    "options": []
+  }
+}
